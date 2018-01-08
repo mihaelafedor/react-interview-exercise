@@ -30,7 +30,7 @@ class FriendListApp extends Component {
     this.state = {
       pageOfFriends: []
     }
-
+    console.log(this.props.FriendListReducer)
     this.onChangePage = this.onChangePage.bind(this)
   }
 
